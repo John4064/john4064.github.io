@@ -1,31 +1,9 @@
 /*John Parkhurst
-Color Pallete is: 2494BC for the darker light blue text, for the offwhite background DEF0F5
-LOGO PALLETE 00132b For the midnight dark blue, 2596be the actual blue
 */
-html{
-    color: #00132b;
-    background-color:#DEF0F5;
-}
 
-.mainbody{
-    font-family: Optima;
-    margin: auto;
-    width: 75%;
-    padding: 10px;
-    background-color: #2494BC;
-    border: 3px solid green;
-    /*display flex then can use flexbox*/
+.jumbotron text-center{
+    color: red;
 }
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-#logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: groove;
-    border-color: #00132b
+.test{
+    background-color: red;
 }
