@@ -1,16 +1,23 @@
 /*John Parkhurst
 */
+
+/**
+Html styling
+ */
 :root {
     --primary: #52b788;
     --fontC: #ff5c8a;
 }
-
-
-
-.nav-item nav-link :hover{
-    color: red;
-}
 body{
     background-color: var(--primary);
     color: var(--fontC)
+}
+/**
+ID Styling
+ */
+/**
+Class styling
+ */
+.nav-item nav-link :hover{
+    color: red;
 }
