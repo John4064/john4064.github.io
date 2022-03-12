@@ -1,0 +1,22 @@
+{
+  "name": "john4064.github.io",
+  "version": "1.0.0",
+  "description": "My portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/John4064/john4064.github.io.git"
+  },
+  "author": "John Parkhurst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/John4064/john4064.github.io/issues"
+  },
+  "homepage": "https://github.com/John4064/john4064.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^3.4.1"
+  }
+}
