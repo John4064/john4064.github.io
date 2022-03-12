@@ -1,9 +1,16 @@
 /*John Parkhurst
 */
+:root {
+    --primary: #52b788;
+    --fontC: #ff5c8a;
+}
 
-.jumbotron text-center{
+
+
+.nav-item nav-link :hover{
     color: red;
 }
 body{
-    background-color: #45f363;
+    background-color: var(--primary);
+    color: var(--fontC)
 }
