@@ -1,7 +1,8 @@
 /*John Parkhurst
-Color Pallete is: 2494BC for the darker light blue text, for the offwhite background DEF0F5
-LOGO PALLETE 00132b For the midnight dark blue, 2596be the actual blue
 */
-.row{
-    background-color: #DEF0F5;
+.jumbotron text-center{
+    color: red;
+}
+body{
+    background-color: #45f363;
 }
