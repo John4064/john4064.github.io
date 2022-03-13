@@ -19,6 +19,7 @@ ID Styling    border: 5px groove #ff5c8a;
 Class styling
  */
 .btn{
-    color:red;
-    border-color: red;
+    color: var(--fontC);
+    border-color: var(--fontC);
+    background-color: var(--primary);
 }
