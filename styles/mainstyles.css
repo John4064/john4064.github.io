@@ -5,7 +5,7 @@
 Html styling
  */
 :root {
-    --primary: #52b788;
+    --primary: #7ed0aa;
     --fontC: #ff5c8a;
 }
 body{
@@ -13,11 +13,14 @@ body{
     color: var(--fontC)
 }
 /**
-ID Styling
+ID Styling    border: 5px groove #ff5c8a;
  */
+
+
 /**
 Class styling
  */
-.nav-item nav-link :hover{
-    color: red;
+.btn{
+    color:red;
+    border-color: red;
 }
