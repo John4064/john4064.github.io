@@ -9,13 +9,11 @@ Html styling
     --fontC: #ff5c8a;
 }
 body{
-    background-color: var(--primary);
     color: var(--fontC)
 }
 /**
 ID Styling    border: 5px groove #ff5c8a;
  */
-
 
 /**
 Class styling
