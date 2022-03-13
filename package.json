@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/John4064/john4064.github.io#readme",
   "dependencies": {
-    "bootstrap": "^3.4.1"
+    "bootstrap": "^4.1.3"
   }
 }
