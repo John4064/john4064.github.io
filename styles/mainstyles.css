@@ -5,18 +5,29 @@
 Html styling
  */
 :root {
-    --primary: #7ed0aa;
-}
-.nav-link{
-    color: red;
+    --primC: #7ed0aa;
 }
 body{
-    color: var(--primary)
+    color: var(--primC)
 }
 /**
 ID Styling    border: 5px groove #ff5c8a;
  */
-
 /**
 Class styling
  */
+a.nav-link{
+    color: var(--primC);
+}
+a.nav-link.active{
+    color: white;
+}
+a.nav-link.disabled{
+    color: #2b3036;
+}
+a.nav-link.active:hover{
+    color:red;
+}
+.navbar-nav.nav-link a:hover{
+    color: red;
+}
