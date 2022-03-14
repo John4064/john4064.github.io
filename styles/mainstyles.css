@@ -6,10 +6,12 @@ Html styling
  */
 :root {
     --primary: #7ed0aa;
-    --fontC: #ff5c8a;
+}
+.nav-link{
+    color: red;
 }
 body{
-    color: var(--fontC)
+    color: var(--primary)
 }
 /**
 ID Styling    border: 5px groove #ff5c8a;
