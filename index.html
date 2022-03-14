@@ -12,20 +12,31 @@
       <link rel="stylesheet" href="./styles/mainstyles.css">
   </head>
   <body class="bg-dark">
-  <!-- Nav Bar-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!-- Nav Bar  navbar-info bg-dark-->
+  <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="/pages/about.html">About</a>
-                  <a class="nav-link" href="#">Portfolio</a>
-                  <a class="nav-link disabled">Contact</a>
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/pages/about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link disabled">Contact</a>
+                  </li>
               </div>
           </div>
+          <span class="navbar-text">
+             Lorem Ipsum
+          </span>
       </div>
   </nav>
 
@@ -35,26 +46,36 @@
           <p>Incoming Technology Development Program Associate at UnitedHealth Group!</p>
       </div>
 
-
       <!--Content-->
   <div class="container bg-dark">
       <h1 style="display: flex; align-items: center; justify-content: center">Featured Projects</h1>
       <div class="row" style="display: flex; align-items: center; justify-content: center">
           <div class="col-sm-4">
-              <h4>Algorithmic Trading Application</h4>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto </p>
-              <button type="button" class="btn btn-outline-info" onclick="location.href='https://github.com/John4064/StockAPI'">More Info</button>
+              <div class="card bg-dark mb-3" style="max-width: 20rem;">
+                  <div class="card-header">Algorithmic Trading Application</div>
+                  <div class="card-body">
+                      <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto </p>
+                      <button type="button" class="btn btn-outline-info" onclick="location.href='https://github.com/John4064/StockAPI'">More Info</button>
+                  </div>
+              </div>
           </div>
           <div class="col-sm-4">
-              <h4>Text Analysis</h4>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto </p>
-              <button type="button" class="btn btn-outline-info" onclick="location.href='https://github.com/John4064/text-analysis'">More Info</button>
+              <div class="card bg-dark mb-3" style="max-width: 20rem;">
+                  <div class="card-header">Text Analysis</div>
+                  <div class="card-body">
+                      <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto </p>
+                      <button type="button" class="btn btn-outline-info" onclick="location.href='https://github.com/John4064/text-analysis'">More Info</button>
+                  </div>
+              </div>
           </div>
           <div class="col-sm-4">
-              <h4>Golf Course Finder</h4>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto </p>
-
-              <button type="button" class="btn btn-outline-info" onclick="location.href='https://github.com/John4064/Golf-Course-Finder'">More Info</button>
+              <div class="card bg-dark mb-3" style="max-width: 20rem;">
+                  <div class="card-header">Golf Course Finder</div>
+                  <div class="card-body">
+                      <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto </p>
+                      <button type="button" class="btn btn-outline-info" onclick="location.href='https://github.com/John4064/Golf-Course-Finder'">More Info</button>
+                  </div>
+              </div>
           </div>
       </div>
 
