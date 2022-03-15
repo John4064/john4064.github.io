@@ -11,20 +11,7 @@ body{
     color: var(--primC)
 }
 
-.btn{
-    border: 2px solid var(--primC);
-    color: var(--primC);
-    transition: width 2s, height 2s, border, transform 2s;
 
-}
-button.btn:hover{
-    background-color: var(--primC);
-    color:white;
-    -webkit-animation: swing 1s ease;
-    animation: swing 2s ease;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-}
 
 /**
 ID Styling    border: 5px groove #ff5c8a;
@@ -54,6 +41,20 @@ a.nav-link:hover,a.nav-link:focus{
 
 }
 
+.btn{
+    border: 2px solid var(--primC);
+    color: var(--primC);
+    transition: width 2s, height 2s, border, transform 2s;
+
+}
+button.btn:hover{
+    background-color: var(--primC);
+    color:white;
+    -webkit-animation: swing 1s ease;
+    animation: swing 2s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
 /**
 Animations!
  */
