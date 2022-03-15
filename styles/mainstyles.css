@@ -8,9 +8,13 @@ Html styling
     --primC: #7ed0aa;
 }
 body{
-    color: var(--primC)
-}
+    color: var(--primC);
+    background: repeating-linear-gradient( 45deg, #7ed0aa, #7ed0aa 20px, #2b3036 20px, #2b3036 100px );
 
+}
+nav{
+    background-color: #2b3036;
+}
 
 /**
 ID Styling    border: 5px groove #ff5c8a;
