@@ -1,0 +1,9 @@
+.card{
+    border: 2px var(--primC) solid;
+    background-color: #2b3036;
+}
+.card-img-top{
+    height: 225px;
+    width: 100%;
+    display: block;
+}
