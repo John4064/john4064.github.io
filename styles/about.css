@@ -31,7 +31,9 @@
 
 
 .topImg{
-    max-width: 250px;
+    width: 250px;
     max-height: 250px;
     border-radius: .75rem;
+    border:  2px var(--primC) solid;
+
 }
