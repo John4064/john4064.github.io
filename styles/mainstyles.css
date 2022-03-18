@@ -14,6 +14,7 @@ body{
 }
 nav{
     background-color: #2b3036;
+
 }
 
 /**
@@ -22,7 +23,14 @@ ID Styling    border: 5px groove #ff5c8a;
 /**
 Class styling
  */
-
+.position-relative.overflow-hidden{
+    background-color: #2b3036;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid var(--primC);
+}
 
 a.nav-link{
     color: var(--primC);
@@ -128,3 +136,4 @@ Animations!
         transform: translateX(0);
     }
 }
+
