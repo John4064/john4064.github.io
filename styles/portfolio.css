@@ -1,6 +1,7 @@
 .card{
     border: 2px var(--primC) solid;
     background-color: #2b3036;
+    margin-top: 15px;
 }
 .card-img-top{
     height: 225px;
