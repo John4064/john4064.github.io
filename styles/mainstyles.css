@@ -31,6 +31,10 @@ Class styling
     justify-content: center;
     border: 5px solid var(--primC);
 }
+.container{
+    border: 5px solid var(--primC);
+    background-color: #2b3036;
+}
 
 a.nav-link{
     color: var(--primC);
