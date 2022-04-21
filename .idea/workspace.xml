@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de20d512-cda7-4b0e-9877-c18e58d93f90" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/CSgo.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/email.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/portfolio.html" afterDir="false" />
     </list>
@@ -87,6 +87,9 @@
       <workItem from="1647316736810" duration="2782000" />
       <workItem from="1647577187502" duration="578000" />
       <workItem from="1649817941881" duration="192000" />
+      <workItem from="1649818197766" duration="32000" />
+      <workItem from="1649818597427" duration="110000" />
+      <workItem from="1650513923842" duration="109000" />
     </task>
     <servers />
   </component>
